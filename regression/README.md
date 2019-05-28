@@ -12,7 +12,7 @@
 
 ## 학습목표
 * 행렬계산, 미분 등 회귀모델을 구현하기 위해 필요한 수학 요약
-* numpy 기초
+* [numpy 기초](https://docs.scipy.org/doc/numpy/user/quickstart.html)
 * 회귀 이론
 * scikit-learn 맛보기
 * 머신러닝의 기초개념 학습
