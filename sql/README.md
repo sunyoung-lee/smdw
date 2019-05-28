@@ -46,7 +46,7 @@
 * SQL 기초문법 학습과 숙달
 * SQL window functions
 * [SQL과 파이썬 pandas의 비교](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html)
-* [제플린에서 SQL 사용하기 with Dynamic Form](http://initd.org/psycopg/docs/)
+* [제플린에서 SQL 사용하기 with Dynamic Form](https://zeppelin.apache.org/docs/0.8.0/quickstart/sql_with_zeppelin.html)
 * [파이썬으로 SQL 사용하기](http://initd.org/psycopg/docs/)
 
 ## 수업진행방법
