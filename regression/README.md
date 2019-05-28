@@ -1,4 +1,4 @@
-# Introduction to machine learning with regression
+# Introduction to machine learning with linear regression
 
 수업의 목표는 머신러닝의 모든 것을 아는게 아니라 앞으로 머신러닝을 공부하고 싶은 학생들에게 앞으로의 공부에 지침이 되는 것입니다.
 
@@ -15,7 +15,11 @@
 * numpy 기초
 * 회귀 이론
 * scikit-learn 맛보기
-* 머신러닝의 기초개념 (cost function, gradient descent, overfitting 등) 학습
+* 머신러닝의 기초개념 학습
+  * cost function
+  * gradient descent
+  * normalization
+  * etc
 * 회귀 예측 모델 구현
 
 ## 수업진행방법
