@@ -85,7 +85,7 @@ Out[6]:
 
 컬럼 리스트가 없이 데이터 프레임을 그냥 부른다면, 모든 컬럼을 보여줍니다. (SQL SELECT 구문에서 \*와 비슷하게요.)
 
-## WHERE <a name="where"></a>
+##  <a name="where"></a> WHERE
 SQL에서 필터링은 WHERE 구문으로 합니다.
 
 ```
@@ -237,7 +237,7 @@ Out[16]:
 4    D    I
 ```
 
-## GROUP BY <a name="groupby"></a>
+## <a name="groupby"></a> GROUP BY
 
 판다스에서 SQL의 GROUP BY는 비슷한 이름의 메소드인 groupby()로 구현되어있습니다. groupby()는 데이터를 그룹으로 나누어서, 어떤 함수를 적용하고, 그리고 다시 합치는 계산을 수행합니다.
 
@@ -344,7 +344,7 @@ Yes    Fri   15.0  2.714000
        Thur  17.0  3.030000
 ```
 
-## JOIN <a name="join"></a>
+## <a name="join"></a> JOIN
 
 JOIN은 join(), merge() 메소드로 구현 될 수 있습니다. join()은 인덱스를 기준으로 데이터 프레임들을 연결할 수 있습니다. 각 매소드는 (LEFT, RIGHT, INNER, FULL과 같은) 조인의 타입과, 어떤 컬럼을 이용해 조인 할 것인지를 명시할 수 있습니다.
 
@@ -362,7 +362,7 @@ In [23]: df2 = pd.DataFrame({'key': ['B', 'D', 'D', 'E'],
 
 이것들을 가지고 여러 타입의 JOIN에 대해 알아봅시다.
 
-### INNER JOIN <a name="inner-join"></a>
+### <a name="inner-join"></a> INNER JOIN
 ```
 SELECT *
 FROM df1
@@ -393,7 +393,7 @@ Out[26]:
 3   D -1.135632  0.119209
 ```
 
-### LEFT OUTER JOIN <a name="outer-join"></a>
+### <a name="outer-join"></a> LEFT OUTER JOIN
 ```
 -- show all records from df1
 SELECT *
@@ -434,7 +434,7 @@ Out[28]:
 3   E       NaN -1.044236
 ```
 
-### FULL JOIN <a name="full-join"></a>
+### <a name="full-join"></a> FULL JOIN
 판다스는 FULL JOIN도 제공합니다. MySQL에서는 제공되지 않는 기능입니다.
 
 ```
@@ -458,7 +458,7 @@ Out[29]:
 5   E       NaN -1.044236
 ```
 
-### UNION <a name="union"></a>
+### <a name="union"></a> UNION
 UNION ALL은 concat()으로 구현할 수 있습니다.
 
 ```
@@ -532,7 +532,7 @@ Out[33]:
 2    Los Angeles     5
 ```
 
-## Pandas equivalents for some SQL analytic and aggregate functions <a name="analytic-functions"></a>
+## <a name="analytic-functions"></a> Pandas equivalents for some SQL analytic and aggregate functions
 ### Top N rows with offset
 
 ```
@@ -640,7 +640,7 @@ Out[37]:
 237       32.83  1.17    Male    Yes  Sat  Dinner     2      2.0
 ```
 
-## UPDATE  <a name="update"></a>
+## <a name="update"></a> UPDATE  
 ```
 UPDATE tips
 SET tip = tip*2
@@ -650,7 +650,7 @@ WHERE tip < 2;
 In [38]: tips.loc[tips['tip'] < 2, 'tip'] *= 2
 ```
 
-## DELETE  <a name="delete"></a>
+## <a name="delete"></a> DELETE 
 ```
 DELETE FROM tips
 WHERE tip > 9;
