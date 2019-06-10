@@ -55,7 +55,7 @@ Out[5]:
 4       24.59  3.61  Female     No  Sun  Dinner     4
 ```
 
-## SELECT <a name="select"></a>
+## <a name="select"></a> SELECT
 SQL에서 선택(selection)은 콤마(,)로 컬럼들을 구분하여 지정합니다. \*를 사용하여 모든 컬럼을 선택할 수도 있습니다.
 
 ```
